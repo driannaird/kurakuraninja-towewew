@@ -23,7 +23,7 @@ function App() {
           right: 50,
           bottom: 50,
         }}
-        className="w-32 h-32 bg-gradient-to-br from-lime-300 to-lime-500">
+        className="w-32 h-32 bg-gradient-to-br from-lime-300 to-lime-500 cursor-pointer">
         <div className="flex gap-4 justify-center mt-8 bg-gradient-to-r from-blue-300 to-blue-200 py-2">
           <div className="w-10 h-5 bg-white rounded-b-full flex items-top justify-center">
             <div className="w-4 h-2 bg-black rounded-b-full animate-pulse" />
