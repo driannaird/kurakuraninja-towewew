@@ -38,7 +38,7 @@ function App() {
         </div>
         <div
           className={`${"w-2/3 mx-auto mt-8 rounded-b-full transition-all ease-in-out duration-500"} ${
-            scream ? "h-2 bg-black" : "h-10 bg-red-600"
+            !scream ? "h-2 bg-black" : "h-10 bg-red-600"
           }`}
         />
       </motion.div>
