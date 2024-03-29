@@ -39,8 +39,14 @@ function App() {
         <div
           className={`${"w-2/3 mx-auto mt-8 rounded-b-full transition-all ease-in-out duration-500"} ${
             !scream ? "h-2 bg-black" : "h-10 bg-red-600"
-          }`}
-        />
+          }`}>
+          <span
+            className={`${
+              !scream ? "opacity-0" : "opacity-100"
+            } transition-all ease-in-out duration-500 text-sm`}>
+            I Love You
+          </span>
+        </div>
       </motion.div>
     </div>
   );
